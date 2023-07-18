@@ -10,7 +10,6 @@ pipeline {
         stage('Build') {
             steps {
                 sh 'cd SampleWebApp && mvn clean package'
-    
             }
         }
     }
